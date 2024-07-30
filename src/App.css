@@ -63,3 +63,48 @@ h1 {
 .hero-column.five {
   margin-top: 35px;
 }
+
+
+.featured-listing ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+.featured-listing img {
+  max-width: 250px;
+  width:100%;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+  
+}
+
+.featured-listing .tag {
+  z-index: 2;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 0 10px;
+  background-color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.featured-listing li {
+  position: relative;
+  list-style-type: none;
+  color: #222;
+}
+
+.star {
+  color:#FE395C;
+}
+
+.featured-listing li p {
+  margin: 0;
+}
+
+.light-color {
+  color: #918E9B;
+}

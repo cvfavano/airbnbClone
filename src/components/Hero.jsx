@@ -11,7 +11,7 @@ function Hero() {
                     <img src="../src/assets/hero/1.png" />
                 </div>
                 <div className="hero-column two">
-                <img src="../src/assets/hero/2.png" />
+                <img src="../src/assets/hero/9.png" />
                 <img src="../src/assets/hero/3.png" />
                 </div>
                 <div className="hero-column three">
@@ -25,7 +25,7 @@ function Hero() {
                  </div>
                  <div className="hero-column five">
                 <img src="../src/assets/hero/8.png" />
-                <img src="../src/assets/hero/9.png" />
+                <img src="../src/assets/hero/2.png" />
 
                  </div>
             </div>
