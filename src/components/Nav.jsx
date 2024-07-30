@@ -3,7 +3,7 @@ import Logo from '../assets/logo.png'
 
 function Nav() {
     return (
-        <div class="row nav">
+        <div className="row nav">
         <div className=" container">
             <img src={Logo} alt='AirBNB logo' />     
         </div>
