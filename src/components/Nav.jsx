@@ -1,11 +1,12 @@
 import React from 'react'
-import Logo from '../assets/logo.jpg'
-function Nav() {
+import Logo from '../assets/logo.png'
 
+function Nav() {
     return (
-        <div className="container">
-            <img src={Logo} alt='AirBNB logo'/>
-            <h1>nav</h1>        
+        <div class="row nav">
+        <div className=" container">
+            <img src={Logo} alt='AirBNB logo' />     
+        </div>
         </div>
     )
 }

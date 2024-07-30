@@ -1,8 +1,65 @@
 body {
-  width: 100%;
   margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.row {
+  width:100%;
 }
 
 .container {
+  width: 100%;
   max-width: 1280px;
+  margin: 0 auto;
+  
+}
+
+.nav {
+  margin-bottom: 30px;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 5px #EEE;
+}
+
+.nav img {
+  width: 82px;  
+  vertical-align: center;
+}
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-direction: row;
+  gap: 10px;
+}
+.hero-column img {
+  width: 100%;
+  border-radius: 6px;
+}
+.hero-column {
+  max-width: 20%;
+  
+}
+
+.hero-column.one {
+  margin-top: 80px;
+}
+
+.hero-column.two {
+  margin-top: 20px;
+}
+
+.hero-column.three {
+  margin-top: 40px;
+}
+
+.hero-column.five {
+  margin-top: 35px;
 }

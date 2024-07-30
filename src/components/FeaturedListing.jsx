@@ -3,8 +3,10 @@ import React from 'react'
 function FeaturedListing() {
 
     return (
-        <div>
+        <div className="row featured-listing">
+            <div className="container">
             <h1>Listing</h1>        
+            </div>
         </div>
     )
 }
